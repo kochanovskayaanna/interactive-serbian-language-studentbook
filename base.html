@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Интерактивный сербский</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+<div class="main-page">
+  <menu class="container">
+    <a href="/" class="menu-link">Учебник</a>
+    <a href="https://ru.wikipedia.org/wiki/Сербский_язык" class="menu-link">О сербском языке</a>
+    <a href="useful.html" class="menu-link">Полезные материалы</a>
+  </menu>
+
+  {% block content %} {% endblock %}
+
+  <footer class="container">
+    <p class="menu-link">Аня Кочановская</p>
+    <a class="menu-link" href="https://github.com/kochanovskayaanna/interactive-serbian-language-studentbook/">Проект на GitHub</a>
+    <p class="menu-link">Сделано в рамках курса по веб-разработке в 3 семестре</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Muller, 'Areal RNDS', Arial, monospace;
+    /*font-weight: 400;*/
+}
+
+.main-page {
+    min-height: 100vh;
+    min-width: 100%;
+    padding: 20px 200px 50px 120px;
+}
+
+.page-background {
+    background: url("main-bg.png");
+    background-size: cover;
+    min-width: 1200px;
+}
+
+menu {
+    padding: 20px;
+    border: 2px solid paleturquoise;
+}
+
+.menu-link {
+    margin-right: 40px;
+
+}
+
+.course {
+    flex: 1;
+}
+
+.right-hand {
+    flex: 1;
+    /*background-color: palevioletred;*/
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-width: 1200px;
+    /*min-height: 600px;*/
+    /*border: 3px solid black;*/
+    /*background-color: cadetblue;*/
+    margin: 0;
+}
+
+.head-container {
+    display: inline-block;
+    width: 70%;
+    /*max-height: 200px;*/
+    /*background-color: white;*/
+    /*border: 1px solid black;*/
+    font-size: 25px;
+    line-height: 200%;
+    padding: 110px 60px 10px 20px;
+}
+
+/*h1::before {*/
+/*    content: "Интерактивный учебник сербского языка";*/
+/*    transition-delay: 0.9s*/
+/*}*/
+
+/*h1:hover::before {*/
+/*    content: "Интерактивни уџбеник српског језика";*/
+/*    !*transition-delay: 0.9s*!*/
+/*}*/
+
+/*lead::before {*/
+/*    content: "Учим самый мелодичный славянский язык с понятными объяснениями и интересными заданиями";*/
+/*    transition-delay: 0.7s*/
+/*}*/
+
+/*lead:hover::before {*/
+/*    content: "Научите најмелодичнији словенски језик уз схватљива објашњења и повољне задатке";*/
+/*    transition-delay: 0.7s*/
+/*}*/
+
+
+
+lead {
+    display: inline-block;
+    width: 60%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    padding: 10px 30px 30px 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    /*position: relative;*/
+    margin-bottom: 50px;
+}
+
+/*.content {*/
+/*    flex: 3;*/
+/*    background-color: cornflowerblue;*/
+/*    height: 100px;*/
+/*}*/
+
+.lecture {
+    /*border: 2px solid cornflowerblue;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+.lecture-nb {
+    flex: 1;
+    padding: 0;
+    font-size: 30px;
+}
+
+.theme {
+    flex: 12;
+    display: inline-block;
+    ;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 140%;
+}
+.author {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.author-photo {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.author-name_name {
+    font-weight: 500;
+    padding: 10px;
+}
+
+.main-longread {
+    padding: 20px 200px 50px 120px;
+    /*background: url("./images/alpha.png");*/
+    background-size: initial;
+    min-width: 100%;
+    height: auto;
+    /*height: 1000px;*/
+
+}
+
+.longread-container {
+    width: 800px;
+    display: inline-block;
+    width: 100%;
+    max-height: 1800px;
+}
+
+footer {
+    padding: 20px;
+    border: 2px solid paleturquoise;
+    line-height: 170%;
+}
+
+section {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 170%;
+    width: 800px;
+    font-weight: 400;
+}
+
+table {
+    vertical-align: top;
+    border-spacing: 15px;
+    /*border-color: blue;*/
+    /*border-style:solid;*/
+    text-align: left;
+    padding-bottom: 20px;
+}
+th {
+    background-color: powderblue;
+    height: 25px;
+    padding-left: 4px;
+}
+
+tr.letter-dj, tr.letter-dž, tr.letter-lj, tr.letter-nj, tr.letter-ć {
+    background-color: lightyellow;
+}
+
+td.cyrillic, td.latin {
+    width: 100px;
+}
+
+td.examples {
+    width: 200px;
+}
+
+td.comment {
+    width: 180px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #3F3737;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #3F3737;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 1200px;
+    max-width: 1500px;
+    padding-bottom: 35px;
+}
+
+.book {
+    padding: 20px;
+    width: 420px;
+    height: 200px;
+    border: 2px solid powderblue;
+    text-align: left;
+}
+
+.book-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.book-authors {
+    margin-bottom: 10px;
+}
