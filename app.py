@@ -13,15 +13,9 @@ def useful():
 def alphabet():
     return render_template('alphabet.html')
 
+@app.route('/biti.html')
+def biti():
+    return render_template('biti.html')
+
 if __name__ == "__main__":
     app.run()
-
-
-#
-#
-# @app.route('/')
-#
-#
-# @app.route('/')
-#
-# @app.route('/')

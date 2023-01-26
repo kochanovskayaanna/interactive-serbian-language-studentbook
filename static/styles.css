@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Muller;
+    font-weight: 400;
+}
 * {
     padding: 0;
     margin: 0;
@@ -20,7 +24,7 @@
 
 menu {
     padding: 20px;
-    border: 2px solid paleturquoise;
+    border: 2px solid #88C4FF;
 }
 
 .menu-link {
@@ -82,11 +86,11 @@ menu {
 
 lead {
     display: inline-block;
-    width: 60%;
+    width: 65%;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
-    line-height: 120%;
+    line-height: 140%;
     padding: 10px 30px 30px 20px;
 }
 
@@ -169,12 +173,12 @@ lead {
 
 footer {
     padding: 20px;
-    border: 2px solid paleturquoise;
+    border: 2px solid #88C4FF;
     line-height: 170%;
 }
 
 section {
-    padding: 10px 20px;
+    padding: 10px 20px 10px 20px;
     font-size: 18px;
     line-height: 170%;
     width: 800px;
@@ -188,19 +192,21 @@ table {
     /*border-style:solid;*/
     text-align: left;
     padding-bottom: 20px;
+    padding-left: 5px;
 }
 th {
-    background-color: powderblue;
+    background-color: #88C4FF;
     height: 25px;
-    padding-left: 4px;
+    padding-left: 5px;
 }
 
 tr.letter-dj, tr.letter-dž, tr.letter-lj, tr.letter-nj, tr.letter-ć {
     background-color: lightyellow;
 }
 
-td.cyrillic, td.latin {
-    width: 100px;
+td.cyrillic, td.latin, th.face {
+    width: 110px;
+    padding-left: 4px;
 }
 
 td.examples {
@@ -209,6 +215,12 @@ td.examples {
 
 td.comment {
     width: 180px;
+}
+
+/*th.singular, th.plural {*/
+
+table.biti {
+    width: 800px;
 }
 
 a:link {
@@ -229,6 +241,10 @@ a:hover {
     text-decoration: underline;
 }
 
+li {
+    padding: 7px 0px;
+}
+
 .tile {
     display: flex;
     flex-direction: row;
@@ -242,7 +258,7 @@ a:hover {
     padding: 20px;
     width: 420px;
     height: 200px;
-    border: 2px solid powderblue;
+    border: 2px solid #88C4FF;
     text-align: left;
 }
 
