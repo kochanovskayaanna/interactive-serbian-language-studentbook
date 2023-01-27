@@ -22,7 +22,10 @@ Reach me out in Telegram using the same nickname.
 
 ## Usage
 
-Launch with command line from project route folder: flask run
+Launch with command line from project route folder: 
+```
+<path_to_python>/python3 -m flask run
+```
 
 
 
@@ -30,7 +33,7 @@ Launch with command line from project route folder: flask run
 
 ## Tech Stack
 
-HTML, CSS, Flask, Python
+HTML, CSS, Flask, Python, Figma
 
 
 
