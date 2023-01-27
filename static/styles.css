@@ -58,26 +58,45 @@ menu {
     padding: 110px 60px 10px 20px;
 }
 
-/*h1::before {*/
-/*    content: "Интерактивный учебник сербского языка";*/
-/*    transition-delay: 0.9s*/
-/*}*/
+h1.h1-main::before {
+    content: "Интерактивный учебник сербского языка";
+    transition-delay: 0.9s
+}
 
-/*h1:hover::before {*/
-/*    content: "Интерактивни уџбеник српског језика";*/
-/*    !*transition-delay: 0.9s*!*/
-/*}*/
+h1.h1-main:hover::before {
+    content: "Интерактивни уџбеник српског језика";
+    transition-delay: 0.9s
+}
 
-/*lead::before {*/
-/*    content: "Учим самый мелодичный славянский язык с понятными объяснениями и интересными заданиями";*/
-/*    transition-delay: 0.7s*/
-/*}*/
+.lead-main::before {
+    content: "Учим самый мелодичный славянский язык с понятными объяснениями и интересными заданиями";
+    transition-delay: 0.7s
+}
 
-/*lead:hover::before {*/
-/*    content: "Научите најмелодичнији словенски језик уз схватљива објашњења и повољне задатке";*/
-/*    transition-delay: 0.7s*/
-/*}*/
+.lead-main:hover:before {
+    content: "Научите најмелодичнији словенски језик уз схватљива објашњења и повољне задатке";
+    transition-delay: 0.7s
+}
 
+h1.h1-useful::before {
+    content: "Полезные материалы";
+    transition-delay: 0.9s
+}
+
+h1.h1-useful:hover::before {
+    content: "Корисни извори";
+    transition-delay: 0.9s
+}
+
+h1.h1-alphabet::before {
+    content: "Кириллица и гаевица";
+    transition-delay: 0.9s
+}
+
+h1.h1-alphabet:hover::before {
+    content: "Ћирилица и гајевица";
+    transition-delay: 0.9s
+}
 
 
 lead {
@@ -133,7 +152,7 @@ lead {
     position: relative;
     text-align: center;
     align-items: center;
-    padding-top: 170px;
+    padding-top: 150px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -262,6 +281,8 @@ li {
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 5px;
+    text-decoration: underline;
+
 }
 .book-authors {
     margin-bottom: 10px;
